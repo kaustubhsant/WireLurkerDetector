@@ -39,7 +39,7 @@ def scanfile(inFile):
                                     jpos = i-len(blockbytes)
                                     fin.seek(jpos,1)
                                     data = fin.read(50)
-                                    if(data[:4] == "\x50\x4B\x05\x06"):
+                                    if(data.startswith("\x50\x4B\x05\x06")):
                                         eocdcount = eocdcount + 1
                                     if("Payload/apps.app/sfbase.dylib" in data):
                                         str1exists = True
