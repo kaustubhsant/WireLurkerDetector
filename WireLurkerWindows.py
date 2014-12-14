@@ -4,9 +4,7 @@ Created on Nov 9, 2014
 @author: Kaustubh Sant
 @copyright: Copyright (c) 2014 Kaustubh Sant
 @version: 2.0
-@change: 1.Added code to scan all logical drives
-         2.Added code to include boundary cases to avoid potential false negatives
-         3.Added code to improve performance  
+
 '''
 """Detecting the WireLurker malware family on Windows."""
 
